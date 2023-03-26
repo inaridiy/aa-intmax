@@ -22,6 +22,10 @@ const config: HardhatUserConfig = {
       url: "https://polygon-mainnet.infura.io/v3/ddac2247725f422196229bfba8ac3877",
       accounts: [process.env.PRIVATE_KEY],
     },
+    mumbai: {
+      url: "https://polygon-mumbai.infura.io/v3/ddac2247725f422196229bfba8ac3877",
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
 };
 

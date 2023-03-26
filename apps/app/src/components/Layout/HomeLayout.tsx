@@ -28,7 +28,7 @@ export const HomeLayout: React.FC<{
           <Link href="/chains" className="btn btn-ghost btn-square">
             <Scan className="w-8 h-8" />
           </Link>
-          <Link href="/" className="btn btn-ghost btn-square">
+          <Link href="/wallet" className="btn btn-ghost btn-square">
             <Wallet className="w-8 h-8" />
           </Link>
           <Link href="/" className="btn btn-ghost btn-square">

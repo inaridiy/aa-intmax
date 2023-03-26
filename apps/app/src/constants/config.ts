@@ -38,11 +38,11 @@ export const CHAIN_CONFIGS = [
     mock: true,
   },
   {
-    id: 137,
-    name: "Polygon",
+    id: 80001,
+    name: "Mumbai",
     icon: PolygonLogo,
     mock: false,
-    rpcUrl: "https://polygon-mainnet.infura.io/v3/ddac2247725f422196229bfba8ac3877",
+    rpcUrl: "https://polygon-mumbai.infura.io/v3/ddac2247725f422196229bfba8ac3877",
     nativeCurrency: {
       name: "Matic",
       symbol: "MATIC",
@@ -50,11 +50,11 @@ export const CHAIN_CONFIGS = [
     },
     aa: {
       bundlerRpcUrl:
-        "https://node.stackup.sh/v1/rpc/96be9a579f73c00442d468e018c8207762401f03f21347c3bb6b1c256e9c8f1f",
+        "https://node.stackup.sh/v1/rpc/ba2b5cd0e9690b7af5d28f56aa5f8d4827f5f5199c2c32d0e4f4bb05268c53c2",
       entryPoint: "0x0576a174D229E3cFA37253523E645A78A0C91B57",
       factories: [
         {
-          address: "0xe50AF2D0b335410e50f7f3fd15e64D0547575F1B",
+          address: "0x0d51172a67536ae2d1Ee881596F2A6AcDfF57D49",
         },
       ],
     },

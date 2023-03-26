@@ -4,7 +4,7 @@ import { Account } from "./types";
 
 export const currentChainIdState = atom<number>({
   key: "currentChainIdState",
-  default: 137,
+  default: 80001,
 });
 
 export const chainConfigListState = atom<ChainConfig[]>({
@@ -15,4 +15,9 @@ export const chainConfigListState = atom<ChainConfig[]>({
 export const currentConnectingAccountState = atom<Account | null>({
   key: "currentConnectingAccountState",
   default: null,
+});
+
+export const updateFlagState = atom<number>({
+  key: "updateFlagState",
+  default: 0,
 });
