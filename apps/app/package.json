@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^1.2.1",
+    "ethers": "^6.2.2",
+    "lucide-react": "^0.127.0",
     "next": "^13.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "webmax": "^0.1.10"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -25,6 +29,6 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
     "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "typescript": "^4.9.5"
   }
 }
